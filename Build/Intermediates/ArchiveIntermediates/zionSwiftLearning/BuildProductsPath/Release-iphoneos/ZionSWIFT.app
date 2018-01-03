@@ -1,0 +1,1 @@
+/Users/apple-1/Downloads/zionSwiftLearning/Build/Intermediates/ArchiveIntermediates/zionSwiftLearning/InstallationBuildProductsLocation/Applications/ZionSWIFT.app

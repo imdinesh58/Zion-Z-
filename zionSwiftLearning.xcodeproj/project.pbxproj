@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E00FEB3D1E66D93C00182928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00FEB3C1E66D93C00182928 /* Assets.xcassets */; };
+		E00FEB401E66D93C00182928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00FEB3E1E66D93C00182928 /* LaunchScreen.storyboard */; };
+		E00FEB4B1E66D93C00182928 /* zionSwiftLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00FEB4A1E66D93C00182928 /* zionSwiftLearningTests.swift */; };
+		E00FEB561E66D93C00182928 /* zionSwiftLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00FEB551E66D93C00182928 /* zionSwiftLearningUITests.swift */; };
+		E028FAC41FFB74FE001E1BC7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028FAC31FFB74FE001E1BC7 /* MapKit.framework */; };
+		E02DB5C71E6ED8C9005866BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02DB5C61E6ED8C9005866BA /* AppDelegate.swift */; };
+		E02DB5CB1E6ED8D7005866BA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02DB5C81E6ED8D7005866BA /* DashboardViewController.swift */; };
+		E02DB5CD1E6ED8D7005866BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02DB5CA1E6ED8D7005866BA /* ViewController.swift */; };
+		E036A9981E9F3AAD00CCBCD7 /* Form1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036A9971E9F3AAD00CCBCD7 /* Form1.swift */; };
+		E08173E11E9E498900DB6733 /* zionSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E08173DF1E9E498900DB6733 /* zionSwift.xcdatamodeld */; };
+		E0C1CA3A1E82956800704EB2 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C1CA391E82956800704EB2 /* test.swift */; };
+		E0D12ECB1E952D0B00E01ABA /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D12ECA1E952D0B00E01ABA /* DatePickerDialog.swift */; };
+		E0D72DED1E8A95350021F6E1 /* form1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D72DEC1E8A95350021F6E1 /* form1TableViewCell.swift */; };
+		E0ECDAAF1E816BB900FAC671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0ECDAAE1E816BB900FAC671 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E00FEB471E66D93C00182928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00FEB271E66D93B00182928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00FEB2E1E66D93B00182928;
+			remoteInfo = zionSwiftLearning;
+		};
+		E00FEB521E66D93C00182928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00FEB271E66D93B00182928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00FEB2E1E66D93B00182928;
+			remoteInfo = zionSwiftLearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E00FEB2F1E66D93B00182928 /* ZionSWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZionSWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00FEB3C1E66D93C00182928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E00FEB3F1E66D93C00182928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E00FEB411E66D93C00182928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00FEB461E66D93C00182928 /* zionSwiftLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zionSwiftLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00FEB4A1E66D93C00182928 /* zionSwiftLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zionSwiftLearningTests.swift; sourceTree = "<group>"; };
+		E00FEB4C1E66D93C00182928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00FEB511E66D93C00182928 /* zionSwiftLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zionSwiftLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00FEB551E66D93C00182928 /* zionSwiftLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zionSwiftLearningUITests.swift; sourceTree = "<group>"; };
+		E00FEB571E66D93C00182928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E028FAC31FFB74FE001E1BC7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E02DB5C61E6ED8C9005866BA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E02DB5C81E6ED8D7005866BA /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		E02DB5CA1E6ED8D7005866BA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E02DB5CE1E6ED962005866BA /* zionSwiftLearning-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "zionSwiftLearning-Bridging-Header.h"; sourceTree = "<group>"; };
+		E036A9971E9F3AAD00CCBCD7 /* Form1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form1.swift; sourceTree = "<group>"; };
+		E08173E01E9E498900DB6733 /* zionSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zionSwift.xcdatamodel; sourceTree = "<group>"; };
+		E0BD47A31E9E3B0600E42AD7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E0C1CA391E82956800704EB2 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		E0D12ECA1E952D0B00E01ABA /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		E0D72DEC1E8A95350021F6E1 /* form1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = form1TableViewCell.swift; sourceTree = "<group>"; };
+		E0ECDAAE1E816BB900FAC671 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00FEB2C1E66D93B00182928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E028FAC41FFB74FE001E1BC7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00FEB431E66D93C00182928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00FEB4E1E66D93C00182928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E00FEB261E66D93B00182928 = {
+			isa = PBXGroup;
+			children = (
+				E00FEB311E66D93B00182928 /* zionSwiftLearning */,
+				E00FEB491E66D93C00182928 /* zionSwiftLearningTests */,
+				E00FEB541E66D93C00182928 /* zionSwiftLearningUITests */,
+				E00FEB301E66D93B00182928 /* Products */,
+				E0BD47A21E9E3B0500E42AD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E00FEB301E66D93B00182928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00FEB2F1E66D93B00182928 /* ZionSWIFT.app */,
+				E00FEB461E66D93C00182928 /* zionSwiftLearningTests.xctest */,
+				E00FEB511E66D93C00182928 /* zionSwiftLearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E00FEB311E66D93B00182928 /* zionSwiftLearning */ = {
+			isa = PBXGroup;
+			children = (
+				E02DB5C81E6ED8D7005866BA /* DashboardViewController.swift */,
+				E0C1CA391E82956800704EB2 /* test.swift */,
+				E036A9971E9F3AAD00CCBCD7 /* Form1.swift */,
+				E0D12ECA1E952D0B00E01ABA /* DatePickerDialog.swift */,
+				E02DB5CA1E6ED8D7005866BA /* ViewController.swift */,
+				E0D72DEC1E8A95350021F6E1 /* form1TableViewCell.swift */,
+				E00FEB3C1E66D93C00182928 /* Assets.xcassets */,
+				E02DB5C61E6ED8C9005866BA /* AppDelegate.swift */,
+				E0ECDAAE1E816BB900FAC671 /* Main.storyboard */,
+				E00FEB3E1E66D93C00182928 /* LaunchScreen.storyboard */,
+				E02DB5CE1E6ED962005866BA /* zionSwiftLearning-Bridging-Header.h */,
+				E00FEB411E66D93C00182928 /* Info.plist */,
+				E08173DF1E9E498900DB6733 /* zionSwift.xcdatamodeld */,
+			);
+			path = zionSwiftLearning;
+			sourceTree = "<group>";
+		};
+		E00FEB491E66D93C00182928 /* zionSwiftLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				E00FEB4A1E66D93C00182928 /* zionSwiftLearningTests.swift */,
+				E00FEB4C1E66D93C00182928 /* Info.plist */,
+			);
+			path = zionSwiftLearningTests;
+			sourceTree = "<group>";
+		};
+		E00FEB541E66D93C00182928 /* zionSwiftLearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E00FEB551E66D93C00182928 /* zionSwiftLearningUITests.swift */,
+				E00FEB571E66D93C00182928 /* Info.plist */,
+			);
+			path = zionSwiftLearningUITests;
+			sourceTree = "<group>";
+		};
+		E0BD47A21E9E3B0500E42AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E028FAC31FFB74FE001E1BC7 /* MapKit.framework */,
+				E0BD47A31E9E3B0600E42AD7 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00FEB2E1E66D93B00182928 /* zionSwiftLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00FEB5A1E66D93C00182928 /* Build configuration list for PBXNativeTarget "zionSwiftLearning" */;
+			buildPhases = (
+				E00FEB2B1E66D93B00182928 /* Sources */,
+				E00FEB2C1E66D93B00182928 /* Frameworks */,
+				E00FEB2D1E66D93B00182928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zionSwiftLearning;
+			productName = zionSwiftLearning;
+			productReference = E00FEB2F1E66D93B00182928 /* ZionSWIFT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E00FEB451E66D93C00182928 /* zionSwiftLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00FEB5D1E66D93C00182928 /* Build configuration list for PBXNativeTarget "zionSwiftLearningTests" */;
+			buildPhases = (
+				E00FEB421E66D93C00182928 /* Sources */,
+				E00FEB431E66D93C00182928 /* Frameworks */,
+				E00FEB441E66D93C00182928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00FEB481E66D93C00182928 /* PBXTargetDependency */,
+			);
+			name = zionSwiftLearningTests;
+			productName = zionSwiftLearningTests;
+			productReference = E00FEB461E66D93C00182928 /* zionSwiftLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E00FEB501E66D93C00182928 /* zionSwiftLearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00FEB601E66D93C00182928 /* Build configuration list for PBXNativeTarget "zionSwiftLearningUITests" */;
+			buildPhases = (
+				E00FEB4D1E66D93C00182928 /* Sources */,
+				E00FEB4E1E66D93C00182928 /* Frameworks */,
+				E00FEB4F1E66D93C00182928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00FEB531E66D93C00182928 /* PBXTargetDependency */,
+			);
+			name = zionSwiftLearningUITests;
+			productName = zionSwiftLearningUITests;
+			productReference = E00FEB511E66D93C00182928 /* zionSwiftLearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00FEB271E66D93B00182928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Apple-1";
+				TargetAttributes = {
+					E00FEB2E1E66D93B00182928 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E9G5V6T252;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					E00FEB451E66D93C00182928 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E00FEB2E1E66D93B00182928;
+					};
+					E00FEB501E66D93C00182928 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E00FEB2E1E66D93B00182928;
+					};
+				};
+			};
+			buildConfigurationList = E00FEB2A1E66D93B00182928 /* Build configuration list for PBXProject "zionSwiftLearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E00FEB261E66D93B00182928;
+			productRefGroup = E00FEB301E66D93B00182928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00FEB2E1E66D93B00182928 /* zionSwiftLearning */,
+				E00FEB451E66D93C00182928 /* zionSwiftLearningTests */,
+				E00FEB501E66D93C00182928 /* zionSwiftLearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00FEB2D1E66D93B00182928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ECDAAF1E816BB900FAC671 /* Main.storyboard in Resources */,
+				E00FEB401E66D93C00182928 /* LaunchScreen.storyboard in Resources */,
+				E00FEB3D1E66D93C00182928 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00FEB441E66D93C00182928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00FEB4F1E66D93C00182928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00FEB2B1E66D93B00182928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02DB5C71E6ED8C9005866BA /* AppDelegate.swift in Sources */,
+				E02DB5CB1E6ED8D7005866BA /* DashboardViewController.swift in Sources */,
+				E02DB5CD1E6ED8D7005866BA /* ViewController.swift in Sources */,
+				E08173E11E9E498900DB6733 /* zionSwift.xcdatamodeld in Sources */,
+				E0C1CA3A1E82956800704EB2 /* test.swift in Sources */,
+				E0D12ECB1E952D0B00E01ABA /* DatePickerDialog.swift in Sources */,
+				E036A9981E9F3AAD00CCBCD7 /* Form1.swift in Sources */,
+				E0D72DED1E8A95350021F6E1 /* form1TableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00FEB421E66D93C00182928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00FEB4B1E66D93C00182928 /* zionSwiftLearningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00FEB4D1E66D93C00182928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00FEB561E66D93C00182928 /* zionSwiftLearningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00FEB481E66D93C00182928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00FEB2E1E66D93B00182928 /* zionSwiftLearning */;
+			targetProxy = E00FEB471E66D93C00182928 /* PBXContainerItemProxy */;
+		};
+		E00FEB531E66D93C00182928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00FEB2E1E66D93B00182928 /* zionSwiftLearning */;
+			targetProxy = E00FEB521E66D93C00182928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E00FEB3E1E66D93C00182928 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00FEB3F1E66D93C00182928 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E00FEB581E66D93C00182928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E00FEB591E66D93C00182928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E00FEB5B1E66D93C00182928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E9G5V6T252;
+				INFOPLIST_FILE = zionSwiftLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.zionSwiftLearning2;
+				PRODUCT_NAME = ZionSWIFT;
+				SWIFT_OBJC_BRIDGING_HEADER = "zionSwiftLearning/zionSwiftLearning-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E00FEB5C1E66D93C00182928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E9G5V6T252;
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = zionSwiftLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.zionSwiftLearning2;
+				PRODUCT_NAME = ZionSWIFT;
+				SWIFT_OBJC_BRIDGING_HEADER = "zionSwiftLearning/zionSwiftLearning-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E00FEB5E1E66D93C00182928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zionSwiftLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.zionSwiftLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zionSwiftLearning.app/zionSwiftLearning";
+			};
+			name = Debug;
+		};
+		E00FEB5F1E66D93C00182928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zionSwiftLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.zionSwiftLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zionSwiftLearning.app/zionSwiftLearning";
+			};
+			name = Release;
+		};
+		E00FEB611E66D93C00182928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zionSwiftLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.zionSwiftLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zionSwiftLearning;
+			};
+			name = Debug;
+		};
+		E00FEB621E66D93C00182928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zionSwiftLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.zionSwiftLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zionSwiftLearning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00FEB2A1E66D93B00182928 /* Build configuration list for PBXProject "zionSwiftLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00FEB581E66D93C00182928 /* Debug */,
+				E00FEB591E66D93C00182928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00FEB5A1E66D93C00182928 /* Build configuration list for PBXNativeTarget "zionSwiftLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00FEB5B1E66D93C00182928 /* Debug */,
+				E00FEB5C1E66D93C00182928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00FEB5D1E66D93C00182928 /* Build configuration list for PBXNativeTarget "zionSwiftLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00FEB5E1E66D93C00182928 /* Debug */,
+				E00FEB5F1E66D93C00182928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00FEB601E66D93C00182928 /* Build configuration list for PBXNativeTarget "zionSwiftLearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00FEB611E66D93C00182928 /* Debug */,
+				E00FEB621E66D93C00182928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E08173DF1E9E498900DB6733 /* zionSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E08173E01E9E498900DB6733 /* zionSwift.xcdatamodel */,
+			);
+			currentVersion = E08173E01E9E498900DB6733 /* zionSwift.xcdatamodel */;
+			path = zionSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E00FEB271E66D93B00182928 /* Project object */;
+}

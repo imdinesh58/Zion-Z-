@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "7319a095bff5d5d03019c79e184d7f8f"
+build_time: [568208307, 561727000]
+inputs:
+  "/Users/apple-1/Downloads/zionSwiftLearning/zionSwiftLearning/AppDelegate.swift": [9223372036854775807, 0]
+  "/Users/apple-1/Downloads/zionSwiftLearning/zionSwiftLearning/DashboardViewController.swift": [9223372036854775807, 0]
+  "/Users/apple-1/Downloads/zionSwiftLearning/zionSwiftLearning/ViewController.swift": [9223372036854775807, 0]
+  "/Users/apple-1/Downloads/zionSwiftLearning/zionSwiftLearning/test.swift": [9223372036854775807, 0]
+  "/Users/apple-1/Downloads/zionSwiftLearning/zionSwiftLearning/DatePickerDialog.swift": [9223372036854775807, 0]
+  "/Users/apple-1/Downloads/zionSwiftLearning/zionSwiftLearning/Form1.swift": [9223372036854775807, 0]
+  "/Users/apple-1/Downloads/zionSwiftLearning/zionSwiftLearning/form1TableViewCell.swift": [9223372036854775807, 0]
+  "/Users/apple-1/Downloads/zionSwiftLearning/Build/Intermediates/ArchiveIntermediates/zionSwiftLearning/IntermediateBuildFilesPath/zionSwiftLearning.build/Release-iphoneos/zionSwiftLearning.build/DerivedSources/CoreDataGenerated/zionSwift/Task+CoreDataClass.swift": [9223372036854775807, 0]
+  "/Users/apple-1/Downloads/zionSwiftLearning/Build/Intermediates/ArchiveIntermediates/zionSwiftLearning/IntermediateBuildFilesPath/zionSwiftLearning.build/Release-iphoneos/zionSwiftLearning.build/DerivedSources/CoreDataGenerated/zionSwift/Task+CoreDataProperties.swift": [9223372036854775807, 0]
+  "/Users/apple-1/Downloads/zionSwiftLearning/Build/Intermediates/ArchiveIntermediates/zionSwiftLearning/IntermediateBuildFilesPath/zionSwiftLearning.build/Release-iphoneos/zionSwiftLearning.build/DerivedSources/CoreDataGenerated/zionSwift/zionSwift+CoreDataModel.swift": [9223372036854775807, 0]
